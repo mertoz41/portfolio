@@ -1,0 +1,14 @@
+.container{
+    position: relative;
+    top: 80px;
+    width: 50%;
+    background-color: orchid;
+    margin: auto;
+    text-align: center;
+}
+
+.tabs {
+    position: relative;
+    text-align: center;
+    left: 400px;
+}

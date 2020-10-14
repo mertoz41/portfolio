@@ -42,18 +42,18 @@ export class Card extends Component {
                         Full-Stack Web Developer
                     </p>
                 </div>
-                <div className={cardStyles.about}>
+                {/* <div className={cardStyles.about}>
                     <h1>About</h1>
                     <p>
                         I am a full-stack web developer with a background in international business studies and professional sports.
                     </p>
-                </div>
-                <div className={cardStyles.projects}>
+                </div> */}
+                {/* <div className={cardStyles.projects}>
                     <h1>Projects</h1>
                     <Link to="/hooperapp"><h4>Hooper App</h4></Link>
                     <Link to="/beatboxbubbleapp"><h4>Beatbox Bubble App</h4></Link>
         
-                </div>
+                </div> */}
                 {/* <div className={cardStyles.buttons}>
                     <button onClick={this.projects}>Projects</button>
                 </div> */}
