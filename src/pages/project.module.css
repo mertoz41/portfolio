@@ -1,0 +1,55 @@
+.container{
+    position: relative;
+    top: 5%;
+
+}
+
+.name{
+    position: relative;
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.video{
+    position: relative;
+    width: 100%;
+    background-color: red;
+
+   
+}
+
+.player{
+    position: relative;
+    width: 100%;
+    margin: auto;
+   
+}
+.desc {
+    position: relative;
+    top: 30px;
+    margin: auto;
+    background-color: salmon;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
+.code {
+    position: relative;
+    width: 50%;
+    background-color: fuchsia;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+
+}
+
+.stack {
+    position: relative;
+    top: 30px;
+    margin: auto;
+    background-color: orangered;
+    width: 50%;
+    height: auto;
+    text-align: center;
+}
