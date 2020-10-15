@@ -8,6 +8,7 @@ export class Contactsect extends Component {
     render() {
         return (
             <div className={sectionStyle.container}>
+                <div className={sectionStyle.main}>
                 experimenting contact sect
                 <Button icon>
                     <a href="https://github.com/mertoz41" target="_blank"><Icon name="github" /></a>
@@ -15,6 +16,7 @@ export class Contactsect extends Component {
                 <Button icon>
                     <a href="https://www.linkedin.com/in/mert-ozkaynak/" target="_blank"><Icon name="linkedin"/></a>
                 </Button>
+                </div>
             </div>
         )
     }
