@@ -25,22 +25,19 @@ export class Card extends Component {
                         Mert Özkaynak
                     </h1>
                 </div>
-                <div className={cardStyles.code}>
-                        <Button icon>
-                            <a href="https://github.com/mertoz41" target="_blank"><Icon name="github" /></a>
-                        </Button>
-                        <Button icon>
-                            <a href="https://www.linkedin.com/in/mert-ozkaynak/" target="_blank"><Icon name="linkedin"/></a>
-                        </Button>
-                </div>
+                {/* <div className={cardStyles.background}>
+                    <img src={require('../images/circlegrid.jpg')} />
+                </div> */}
+                
                 
                 <div className={cardStyles.pic}>
                     <img src={require('../images/mert-cropped.jpg')} />
                 </div>
+                
                 <div className={cardStyles.desc}>
-                    <p>
+                    <h3>
                         Full-Stack Web Developer
-                    </p>
+                    </h3>
                 </div>
                 {/* <div className={cardStyles.about}>
                     <h1>About</h1>

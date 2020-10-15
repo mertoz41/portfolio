@@ -1,9 +1,45 @@
 .container{
     position: relative;
-    width: 50%;
-    top: 90px;
+    width: 100%;
+    top: 130px;
     height: auto;
     margin: auto;
-    background-color: teal;
     text-align: center;
 }
+
+.main{
+    position: relative;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    padding: 10px;
+    background-image: linear-gradient(to bottom right,  #00FA9A, #7B68EE);
+    border-radius: 25px;
+    box-shadow: 5px 10px 18px #888888;
+
+
+    
+}
+
+.project{
+    position: relative;
+    width: 70%;
+    margin: 20px auto;
+    text-align: center;
+    padding: 10px;
+    border: 2px gray solid;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 5px 10px 18px #888888;
+}
+
+.project img{
+    position: absolute;
+    left: 70px;
+    width: 80px;
+}
+
+.project:hover{
+    opacity: 0.7
+}
+

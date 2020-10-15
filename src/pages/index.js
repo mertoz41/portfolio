@@ -6,6 +6,7 @@ import 'semantic-ui-css/semantic.min.css'
 import Tabs from '../components/tabs'
 import AboutSect from '../components/aboutsect'
 import ProjectSect from '../components/projectsect'
+import ContactSect from '../components/contactsect'
 
 
 
@@ -26,7 +27,17 @@ class IndexPage extends Component{
           {this.state.showing == "about" ?
           <AboutSect />
           :
+          null
+          }
+          {this.state.showing == "projects" ?
           <ProjectSect />
+          : 
+          null
+          }
+          {this.state.showing == "contact" ?
+          <ContactSect />
+          :
+          null
           }
           {/* <Link to="/page-2/">Go to page 2</Link> <br />
           <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}

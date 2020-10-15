@@ -2,7 +2,7 @@
     position: relative;
     top: 80px;
     width: 50%;
-    background-color: orchid;
+    /* background-color: orchid; */
     margin: auto;
     text-align: center;
 }
@@ -11,4 +11,23 @@
     position: relative;
     text-align: center;
     left: 400px;
+}
+
+.nuTabs h3{
+    display: inline;
+    padding: 30px;
+
+    
+}
+
+.nuTabs h3.active{
+    border-bottom-style: solid;
+    border-bottom-color: #00FA9A;
+
+}
+
+.tab{
+    color: black;
+    border-bottom-style: solid;
+    border-bottom-color: #7B68EE;
 }
