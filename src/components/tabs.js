@@ -5,8 +5,10 @@ import tabStyles from './tabs.module.css'
 
 export class Tabs extends Component {
     state = { activeItem: 'about' } 
-    handleItemClick = (e, { name }) => this.setState({ activeItem: name })
-
+    handleItemClick = (e, { name }) => {
+        this.setState({ activeItem: name })
+        this.props.changeView(name)
+    }
 
     render() {
         return (

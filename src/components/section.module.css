@@ -1,0 +1,9 @@
+.container{
+    position: relative;
+    width: 50%;
+    top: 90px;
+    height: auto;
+    margin: auto;
+    background-color: teal;
+    text-align: center;
+}
