@@ -6,7 +6,7 @@ import { Button, Icon } from 'semantic-ui-react'
 import Footer from '../components/footer'
 import ProjectTabs from '../components/projecttabs'
 import BeatboxerSect from '../components/beatboxersect'
-import ProjectStack from '../components/projectstack'
+import BeatboxStack from '../components/beatboxstack'
 import { navigate } from 'gatsby'
 
 
@@ -55,7 +55,7 @@ export class Beatboxbubbleapp extends Component {
                     {this.state.activeItem == "description" ? 
                     <BeatboxerSect />
                     :
-                    <ProjectStack />
+                    <BeatboxStack />
                     }
                 </div>
 

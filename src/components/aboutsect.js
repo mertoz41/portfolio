@@ -7,8 +7,10 @@ export class Aboutsect extends Component {
             <div className={sectionStyle.container}>
                 <div className={sectionStyle.main}>
                     <p>I am a full-stack web developer with a background in international business studies and professional sports.
-                    I am looking for front-end positions as I enjoy designing and developing the user experience.
-                    My current stack consists of Ruby and JavaScript frameworks, as I am constantly adopting new frameworks and open source libraries. 
+                        I recently transitioned to coding to get more and more out of computers.
+                        As a full-stack, I prefer working on the front-end as I enjoy designing and developing the user experience.
+                        I am a curious developer, with a passion for problem solving and life-long learning.
+                        I bring strong collaboration and communication skills from playing 4 years of college and a year of professional basketball. 
                     </p>
                 </div>
             </div>

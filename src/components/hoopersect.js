@@ -6,9 +6,10 @@ export class Hoopersect extends Component {
         return (
             <div className={sectionStyle.container}>
                 <div className={sectionStyle.main}>
-                    <p>I am a full-stack web developer with a background in international business studies and professional sports.
-                    I am looking for front-end positions as I enjoy designing and developing the user experience.
-                    My current stack consists of Ruby and JavaScript frameworks, as I am constantly adopting new frameworks and open source libraries. 
+                    <p>
+                        Hooper App is a social networking service that pivots around the most beautiful sport in the world, basketball.
+                        It is created for hoopers to explore new basketball courts, find the best competition, and to connect with other hoopers with respect to the game itself. 
+                        
                     </p>
                 </div>
             </div>

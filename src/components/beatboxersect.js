@@ -6,9 +6,10 @@ export class Beatboxersect extends Component {
         return (
             <div className={sectionStyle.container}>
                 <div className={sectionStyle.main}>
-                    <p>I am a full-stack web developer with a background in international business studies and professional sports.
-                    I am looking for front-end positions as I enjoy designing and developing the user experience.
-                    My current stack consists of Ruby and JavaScript frameworks, as I am constantly adopting new frameworks and open source libraries. 
+                    <p> 
+                        Beatbox Bubble App is a social networking service that connects users through their own music.
+                        It is created for users to get creative sampling, composing, and sharing their sounds with other users.
+                        This project has came to life as I wanted to discover how to store audio files in the database.  
                     </p>
                 </div>
             </div>

@@ -5,7 +5,7 @@ import indexStyles from './index.module.css'
 import { Button, Icon } from 'semantic-ui-react'
 import Footer from '../components/footer'
 import HooperSect from '../components/hoopersect'
-import ProjectStack from '../components/projectstack'
+import HooperStack from '../components/hooperstack'
 import ProjectTabs from '../components/projecttabs'
 import {navigate} from 'gatsby'
 
@@ -51,7 +51,7 @@ export class Hooperapp extends Component {
                     {this.state.activeItem == "description" ? 
                     <HooperSect />
                     :
-                    <ProjectStack />
+                    <HooperStack />
                     }
                 </div>
 

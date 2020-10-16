@@ -13,13 +13,13 @@ export class Projectsect extends Component {
                
                 <div className={sectionStyle.main}>
                     <div className={sectionStyle.project} onClick={() => this.toApp('hooperapp')}>
-                        <img src={require('../images/hooperlogo.jpg')} />
-                        <h3>Hooper App</h3>
+                        <img src={require('../images/hooperlogo.png')} />
+                        <h2>Hooper App</h2>
                         <p>Find new basketball courts, and competition around you.</p>
                     </div>
                     <div className={sectionStyle.project} onClick={() => this.toApp('beatboxbubbleapp')}>
-                        <img src={require('../images/bbblogo.jpg')} />
-                        <h3>Beatbox Bubble App</h3>
+                        <img src={require('../images/bbblogo.png')} />
+                        <h2>Beatbox Bubble App</h2>
                         <p>Record, sample, and share your sound.</p>
                     </div>
 

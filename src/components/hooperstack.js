@@ -1,19 +1,18 @@
 import React, { Component } from 'react'
 import sectionStyle from './section.module.css'
-import { Button, Icon } from 'semantic-ui-react'
 
 
-
-export class Stacksect extends Component {
+export class Hooperstack extends Component {
     render() {
         return (
             <div className={sectionStyle.container}>
                 <div className={sectionStyle.main}>
-                <img src={require('../images/mert-tech-stack.png')} />                
+                    <img src={require('../images/hooper-stack.png')} />
+
                 </div>
             </div>
         )
     }
 }
 
-export default Stacksect
+export default Hooperstack
