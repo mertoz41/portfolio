@@ -29,5 +29,9 @@
 .tab{
     color: black;
     border-bottom-style: solid;
-    border-bottom-color: #7B68EE;
+    border-bottom-color: #191970;
+}
+
+.nuTabs h3:hover{
+    color: #00FA9A;
 }

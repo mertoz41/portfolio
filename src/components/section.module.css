@@ -35,8 +35,18 @@
     width: 80px;
 }
 
+.project h3{
+    border-bottom-style: solid;
+    border-bottom-color: #191970;
+}
+
+.project:hover p{
+    /* background-image: linear-gradient(to bottom right,  #00FA9A, #7B68EE); */
+    /* color: #6A5ACD; */
+}
 .project:hover{
-    background-image: linear-gradient(to bottom right,  #00FA9A, #7B68EE);
+    /* background-image: linear-gradient(to bottom right,  #00FA9A, #7B68EE); */
+    background-color: #00FA9A;
 }
 
 
