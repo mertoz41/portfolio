@@ -9,12 +9,10 @@
 
 .main{
     position: relative;
-    width: 60%;
+    width: 40%;
     height: 350px;
     margin: auto;
-    padding: 10px;
-    border-radius: 25px;
-    box-shadow: 5px 10px 18px #888888;
+    padding: 20px;
 
 
     
@@ -22,7 +20,7 @@
 
 .project{
     position: relative;
-    width: 70%;
+    width: 100%;
     margin: 20px auto;
     text-align: center;
     padding: 10px;
@@ -41,3 +39,7 @@
     background-image: linear-gradient(to bottom right,  #00FA9A, #7B68EE);
 }
 
+
+.main p{
+    font-size: 20px;
+}

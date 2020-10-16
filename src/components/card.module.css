@@ -21,11 +21,11 @@
     position: absolute;
     text-align: center;
     width: 100%;
-    opacity: 0.3;
+    /* opacity: 0.3; */
 }
 .background img{
-    width: 50%;
-    height: 600px;
+    width: 80%;
+    height: 300px;
 }
 
 .pic{

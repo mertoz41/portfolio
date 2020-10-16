@@ -26,7 +26,7 @@ export class Card extends Component {
                     </h1>
                 </div>
                 {/* <div className={cardStyles.background}>
-                    <img src={require('../images/griddo.png')} />
+                    <img src={require('../images/grids.png')} />
                 </div> */}
                 
                 
