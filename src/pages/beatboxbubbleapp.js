@@ -7,6 +7,8 @@ import Footer from '../components/footer'
 import ProjectTabs from '../components/projecttabs'
 import BeatboxerSect from '../components/beatboxersect'
 import ProjectStack from '../components/projectstack'
+import { navigate } from 'gatsby'
+
 
 
 
@@ -23,15 +25,19 @@ export class Beatboxbubbleapp extends Component {
         this.setState({activeItem: name})
          
     }
+    toHome = () =>{
+        navigate('/')
+
+    }
     render() {
         return (
             <div className={indexStyles.wrapper}>
                 <div className={projectStyle.container}>
                     <div className={projectStyle.name}>
-            
-                    <h1>
-                        Beatbox Bubble App
-                    </h1>
+                        <h1>
+                            Beatbox Bubble App
+                        </h1>
+                        <Button circular icon="home" onClick={() => this.toHome()}/>
                     </div>
                     {/* <div className={projectStyle.code}>
                         <Button icon>

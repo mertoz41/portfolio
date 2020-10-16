@@ -7,6 +7,7 @@ import Footer from '../components/footer'
 import HooperSect from '../components/hoopersect'
 import ProjectStack from '../components/projectstack'
 import ProjectTabs from '../components/projecttabs'
+import {navigate} from 'gatsby'
 
 
 export class Hooperapp extends Component {
@@ -18,15 +19,21 @@ export class Hooperapp extends Component {
         this.setState({activeItem: name})
          
     }
+
+    toHome = () =>{
+        navigate('/')
+
+    }
     render() {
         return (
             <div className={indexStyles.wrapper}>
                 <div className={projectStyle.container}>
                     <div className={projectStyle.name}>
-            
-                    <h1>
-                        Hooper App
-                    </h1>
+                        <h1>
+                            Hooper App
+                        </h1>
+                        <Button circular icon="home" onClick={() => this.toHome()}/>
+
                     </div>
                     {/* <div className={projectStyle.code}>
                         <Button icon>

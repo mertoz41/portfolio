@@ -13,6 +13,7 @@
     height: 350px;
     margin: auto;
     padding: 20px;
+    text-align: left;
 
 
     
@@ -26,6 +27,8 @@
     padding: 10px;
     background-color: white;
     border-radius: 20px;
+    border: 2px solid #191970;
+
 
 }
 
@@ -49,6 +52,7 @@
 .project:hover{
     /* background-image: linear-gradient(to bottom right,  white, #00FA9A); */
     box-shadow: 0px 0px 0px #888888;
+    border: 2px solid #00FA9A;
     
 
 }
