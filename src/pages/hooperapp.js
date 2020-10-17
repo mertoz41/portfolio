@@ -50,7 +50,7 @@ export class Hooperapp extends Component {
                 <div className={projectStyle.video}>
                     <ReactPlayer className={projectStyle.player} url="https://vimeo.com/452664239" />
                 </div>
-                <div className={projectStyle.rest}>
+                {/* <div className={projectStyle.rest}> */}
 
                 
                     <ProjectTabs changeView={this.changeView}/>
@@ -59,7 +59,7 @@ export class Hooperapp extends Component {
                     :
                     <HooperStack />
                     }
-                </div>
+                {/* </div> */}
 
                 <Footer />
 

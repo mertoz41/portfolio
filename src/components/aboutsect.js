@@ -5,7 +5,7 @@ export class Aboutsect extends Component {
     render() {
         return (
             <div className={sectionStyle.container}>
-                <div className={sectionStyle.main}>
+                <div className={sectionStyle.about}>
                     <p>I am a full-stack web developer with a background in international business studies and professional sports.
                         Recently transitioned to coding and completed a 15-week software engineering bootcamp at the Flatiron School.
                         As a full-stack, I prefer working on the front-end as I enjoy designing and developing the user experience.

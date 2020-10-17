@@ -6,7 +6,7 @@ export class Beatboxstack extends Component {
     render() {
         return (
             <div className={sectionStyle.container}>
-                <div className={sectionStyle.main}>
+                <div className={sectionStyle.projectstack}>
                     <img src={require('../images/bbb-stack.png')} />
 
                 </div>
