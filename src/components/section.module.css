@@ -29,13 +29,13 @@
     padding: 20px;
     text-align: left;
 
-    /* padding-bottom: 10%; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
 .about p{
     font-size: 20px;
-    padding: 10%;
+    
+    padding: 10px;
 
 }
 .stack{
@@ -104,7 +104,7 @@
 .project img{
     position: relative;
     height: 50px;
-    top: 15px;
+    top: 5px;
     margin: auto;
 }
 

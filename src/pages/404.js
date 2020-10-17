@@ -1,14 +1,15 @@
 import React from "react"
+import cardStyles from '../components/card.module.css'
 
-import Layout from "../components/layout"
-import SEO from "../components/seo"
+
 
 const NotFoundPage = () => (
-  <Layout>
-    <SEO title="404: Not found" />
-    <h1>404: Not Found</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
-  </Layout>
+  <div className={cardStyles.card}>
+    <div className={cardStyles.name}>
+      <h1>Page Does Not Exist.</h1>
+    </div>
+
+  </div>
 )
 
 export default NotFoundPage
