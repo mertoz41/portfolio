@@ -20,9 +20,10 @@
 }
 .background{
     position: absolute;
-    text-align: center;
-    width: 100%;
-    /* opacity: 0.3; */
+    width: 30%;
+    /* background-color: violet; */
+    opacity: 0.3;
+    margin: auto;
 }
 .background img{
     width: 80%;

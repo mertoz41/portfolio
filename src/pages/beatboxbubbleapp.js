@@ -25,9 +25,12 @@ export class Beatboxbubbleapp extends Component {
         this.setState({activeItem: name})
          
     }
-    toHome = () =>{
-        navigate('/')
+    toNavigate = (name) =>{
+        navigate(name)
 
+    }
+    toWeb = (web) =>{
+        window.open(web, '_blank')
     }
     render() {
         return (
@@ -37,7 +40,10 @@ export class Beatboxbubbleapp extends Component {
                         <h1>
                             Beatbox Bubble App
                         </h1>
-                        <Button circular icon="home" onClick={() => this.toHome()}/>
+                        <Button circular icon="github" onClick={() => this.toWeb('https://github.com/mertoz41/beatbox-bubble')}/>
+                        <Button circular icon="home" onClick={() => this.toNavigate('/')}/>
+                        <Button circular icon="basketball ball" onClick={() => this.toNavigate('/hooperapp')}/>
+
                     </div>
                     {/* <div className={projectStyle.code}>
                         <Button icon>

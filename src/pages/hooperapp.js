@@ -20,9 +20,12 @@ export class Hooperapp extends Component {
          
     }
 
-    toHome = () =>{
-        navigate('/')
+    toNavigate = (location) =>{
+        navigate(location)
 
+    }
+    toWeb = (web) =>{
+        window.open(web, '_blank')
     }
     render() {
         return (
@@ -32,7 +35,10 @@ export class Hooperapp extends Component {
                         <h1>
                             Hooper App
                         </h1>
-                        <Button circular icon="home" onClick={() => this.toHome()}/>
+                        <Button circular icon="github" onClick={() => this.toWeb('https://github.com/mertoz41/hooper-front-end')}/>
+                        <Button circular icon="home" onClick={() => this.toNavigate('/')}/>
+                        <Button circular icon="microphone" onClick={() => this.toNavigate('/beatboxbubbleapp')}/>
+
 
                     </div>
                     {/* <div className={projectStyle.code}>
