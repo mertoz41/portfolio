@@ -35,9 +35,9 @@
 }
 
 .project img{
-    position: absolute;
-    left: 80px;
+    position: relative;
     height: 50px;
+    top: 15px;
     margin: auto;
 }
 
