@@ -4,6 +4,8 @@
     height: 80px;
     bottom: 0;
     background-image: linear-gradient(to bottom right,  #191970, #00FA9A);
+    line-height: 60px;
+
     text-align: center;
 
 }
