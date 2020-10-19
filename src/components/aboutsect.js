@@ -12,6 +12,7 @@ export class Aboutsect extends Component {
                         As a full-stack, I enjoy working on the front-end to design and develop the user experience.
                         I am a curious developer, with a passion for problem solving and life-long learning.
                         I bring strong collaboration and communication skills from playing 4 years of college and a year of professional basketball. 
+    
                     </p>
                 </div>
             </div>

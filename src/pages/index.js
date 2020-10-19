@@ -23,8 +23,12 @@ class IndexPage extends Component{
   render(){
     return(
       <div className={indexStyles.wrapper}>
+  
           <Card />
           <Tabs changeView={this.changeView} />
+          <div className={indexStyles.content}>
+
+          
           {this.state.showing == "about" ?
           <AboutSect />
           :
@@ -40,6 +44,7 @@ class IndexPage extends Component{
           :
           null
           }
+          </div>
           {/* <Link to="/page-2/">Go to page 2</Link> <br />
           <Link to="/using-typescript/">Go to "Using TypeScript"</Link> */}
           <Footer />

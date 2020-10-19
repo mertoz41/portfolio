@@ -10,11 +10,13 @@
 .main{
     position: relative;
     max-width: 800px;
-    height: 500px;
+    height: auto;
     /* top: 70px; */
     margin: auto;
     padding: 20px;
     text-align: left;
+    min-height: 500px;
+
 
     /* padding-bottom: 10%; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -23,12 +25,13 @@
 .about{
     position: relative;
     max-width: 800px;
-    height: 500px;
-    /* top: 70px; */
-    margin: auto;
+    height: auto;
+    min-height: 500px;
+    top: 20px;
+    margin: 0 auto;
     padding: 20px;
     text-align: left;
-
+    margin-bottom: 30px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
@@ -41,11 +44,13 @@
 .stack{
     position: relative;
     max-width: 700px;
-    height: 500px;
+    height: auto;
     /* top: 100px; */
     margin: auto;
     padding: 20px;
     text-align: left;
+    min-height: 500px;
+
 
     /* padding-bottom: 10%; */
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
