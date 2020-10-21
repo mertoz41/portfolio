@@ -10,7 +10,7 @@ export class Aboutsect extends Component {
                         Always fascinated with computers, I have transitioned to programming to control them. 
                         Upon completing a 15-week software engineering bootcamp at the Flatiron School, I am specialized in Ruby and JavaScript frameworks.
                         As a full-stack, I enjoy working on the front-end to design and develop the user experience.
-                        I am a curious developer, with a passion for problem solving and life-long learning.
+                        I am a rigorous developer, with a passion for problem solving and life-long learning.
                         I bring strong collaboration and communication skills from playing 4 years of college and a year of professional basketball. 
     
                     </p>
