@@ -9,7 +9,7 @@ export class Beatboxersect extends Component {
                     <p> 
                         Beatbox Bubble App is a social networking service that connects users through their own music.
                         It is created for users to get creative sampling, composing, and sharing their sounds with other users.
-                        This application was created with the intention to work with audio files.  
+                        This application was developed in an Agile environment through daily standup meetings and weekly sprints, with the intention to work with audio files.  
                     </p>
                 </div>
             </div>
