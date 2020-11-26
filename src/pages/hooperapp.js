@@ -38,6 +38,9 @@ export class Hooperapp extends Component {
                         <Button circular icon="github" onClick={() => this.toWeb('https://github.com/mertoz41/hooper-front-end')}/>
                         <Button circular icon="home" onClick={() => this.toNavigate('/')}/>
                         <Button circular icon="microphone" onClick={() => this.toNavigate('/beatboxbubbleapp')}/>
+                        <Button circular icon="calendar alternate outline" onClick={() => this.toNavigate('/trackerapp')}/>
+
+                        
 
 
                     </div>

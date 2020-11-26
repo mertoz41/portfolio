@@ -5,8 +5,8 @@ import indexStyles from './index.module.css'
 import { Button, Icon } from 'semantic-ui-react'
 import Footer from '../components/footer'
 import ProjectTabs from '../components/projecttabs'
-import BeatboxerSect from '../components/beatboxersect'
-import BeatboxStack from '../components/beatboxstack'
+import TrackerSect from '../components/trackersect'
+import TrackerStack from '../components/trackerstack'
 import { navigate } from 'gatsby'
 
 
@@ -16,7 +16,7 @@ import { navigate } from 'gatsby'
 
 
 
-export class Beatboxbubbleapp extends Component {
+export class Trackerapp extends Component {
     state = {
         activeItem: "description"
     }
@@ -38,28 +38,25 @@ export class Beatboxbubbleapp extends Component {
                 <div className={projectStyle.container}>
                     <div className={projectStyle.name}>
                         <h1>
-                            Beatbox Bubble App
+                            Project Tracker App
                         </h1>
-                        <Button circular icon="github" onClick={() => this.toWeb('https://github.com/mertoz41/beatbox-bubble')}/>
+                        <Button circular icon="github" onClick={() => this.toWeb('https://github.com/mertoz41/tracker-frontend')}/>
                         <Button circular icon="home" onClick={() => this.toNavigate('/')}/>
                         <Button circular icon="basketball ball" onClick={() => this.toNavigate('/hooperapp')}/>
-                        <Button circular icon="calendar alternate outline" onClick={() => this.toNavigate('/trackerapp')}/>
-
+                        <Button circular icon="microphone" onClick={() => this.toNavigate('/beatboxbubbleapp')}/>
 
                     </div>
-               
                 </div>
                 <div className={projectStyle.video}>
-                    <ReactPlayer className={projectStyle.player} url="https://vimeo.com/452664970" />
+                    <ReactPlayer className={projectStyle.player} url="https://vimeo.com/483887327" />
                 </div>
-                {/* <div className={projectStyle.rest}> */}
 
                 
                     <ProjectTabs changeView={this.changeView}/>
                     {this.state.activeItem == "description" ? 
-                    <BeatboxerSect />
+                    <TrackerSect />
                     :
-                    <BeatboxStack />
+                    <TrackerStack />
                     }
                 {/* </div> */}
 
@@ -72,4 +69,4 @@ export class Beatboxbubbleapp extends Component {
     }
 }
 
-export default Beatboxbubbleapp
+export default Trackerapp
