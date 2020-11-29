@@ -1,8 +1,9 @@
 .container{
     position: relative;
-    top: 20px;
+    /* top: 0px; */
+    padding: 20px;
     width: 100%;
-    /* background-color: orchid; */
+    background-color: whitesmoke;
     margin: auto;
     text-align: center;
 }
@@ -16,6 +17,7 @@
 .nuTabs {
     position: relative;
     width: 100%;
+    padding-bottom: 30px;
 
 }
 
