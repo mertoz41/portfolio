@@ -8,7 +8,7 @@ export class Aboutsect extends Component {
                 <div className={sectionStyle.about}>
 
                     
-                    <p>Born and raised in Izmir, Turkey, I came to the US in 2010, 
+                    <p> Born and raised in Izmir, Turkey, I came to the US in 2010, 
                         seeking to continue my education as a student-athlete. 
                         Upon graduating from T.C. Williams High School in 2014 and 
                         Thiel College in 2018 with a bachelors degree in International Business studies, 

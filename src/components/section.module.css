@@ -76,32 +76,49 @@
 }
 .projectstack{
     position: relative;
-    max-width: 500px;
+    max-width: 700px;
     height: 400px;
     /* top: 100px; */
     margin: auto;
     padding: 20px;
-    text-align: left;
+    text-align: center;
+    background-color: white;
+    border-bottom-style: solid;
+    border-bottom-color: #00FA9A ;
 
 
+
+
+}
+.projectstack img{
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .projectabout{
     position: relative;
-    max-width: 800px;
+    max-width: 700px;
     height: 400px;
     /* top: 100px; */
     margin: auto;
     padding: 20px;
     text-align: left;
+    background-color: white;
+
 
     /* padding-bottom: 10%; */
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-bottom-style: solid;
+    border-bottom-color: #00FA9A ;
+
 
 }
 .projectabout p{
     font-size: 20px;
     padding: 10%;
+    text-align: justify;
+
 
 }
 
