@@ -20,24 +20,26 @@ export class Card extends Component {
     render() {
         return (
             <div className={cardStyles.card}>
-                <div className={cardStyles.name}>
-                    <h1>
-                        Mert Özkaynak
-                    </h1>
-                </div>
-                <div className={cardStyles.background}>
-                </div>
-                
-                
-                <div className={cardStyles.pic}>
-                    <img src={require('../images/mert-cropped.jpg')} />
-                </div>
-                
-                <div className={cardStyles.desc}>
-                    <h3>
-                        Full-Stack Web Developer
-                    </h3>
-                </div>
+                <div className={cardStyles.content}>
+                    <div className={cardStyles.name}>
+                        <h1>
+                            Mert Özkaynak
+                        </h1>
+                    </div>
+
+         
+                    
+                    
+                    <div className={cardStyles.pic}>
+                        <img src={require('../images/mert-cropped.jpg')} />
+                    </div>
+                    
+                    <div className={cardStyles.desc}>
+                        <h3>
+                            Full-Stack Web Developer
+                        </h3>
+                    </div>
+                    </div>
                
             </div>
         )

@@ -31,7 +31,7 @@
 }
 .about{
     position: relative;
-    max-width: 800px;
+    width: 50%;
     height: auto;
     min-height: 500px;
     /* top: 20px; */

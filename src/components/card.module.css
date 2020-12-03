@@ -9,13 +9,21 @@
     margin: auto;
     text-align: center;
     padding: 40px;
+    opacity: 1;
+}
+
+.content{
+    position: relative;
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
 }
 .name h1{
     border-bottom-style: solid;
     border-bottom-color: #00FA9A;
     font-size: 65px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    color: white;
+    color: black;
 
 }
 .background{
@@ -25,7 +33,7 @@
     width: 30%;
     height: 30px;
     text-align: center;
-    /* background-color: white; */
+    background-color: white;
     /* opacity: 0.3; */
 }
 .background img{

@@ -17,7 +17,7 @@ export class Aboutsect extends Component {
                         bootcamp at Flatiron School to learn full-stack web development. So far it has 
                         been a smooth transition as I channel the discipline and work ethic gained from 
                         basketball into this nonstop evolving industry. I spend most of my time working 
-                        on projects, studying computer science fundamentals, and adopting new technologies 
+                        on projects, studying computer science fundamentals, and incorporating new technologies 
                         in quest to mastery.                     
                     </p>
                 </div>
