@@ -3,6 +3,7 @@ import { navigate } from 'gatsby'
 import { Link } from "gatsby"
 import cardStyles from './card.module.css'
 import { Button, Icon } from 'semantic-ui-react'
+import Tabs from './tabs'
 
 
 export class Card extends Component {
@@ -20,25 +21,30 @@ export class Card extends Component {
     render() {
         return (
             <div className={cardStyles.card}>
-                <div className={cardStyles.content}>
-                    <div className={cardStyles.name}>
+                <div className={cardStyles.name}>
                         <h1>
                             Mert Özkaynak
                         </h1>
                     </div>
-
-         
-                    
-                    
+                <div className={cardStyles.content}>
+                
                     <div className={cardStyles.pic}>
-                        <img src={require('../images/mert-cropped.jpg')} />
+                        <img src={require('../images/mert-greeen.png')} />
                     </div>
                     
-                    <div className={cardStyles.desc}>
+                    
+                {/* <img src={require('../images/dimension.png')} style={{width: '100%', position: "relative"}}/> */}
+                <div className={cardStyles.desc}>
                         <h3>
                             Full-Stack Web Developer
                         </h3>
                     </div>
+                                
+
+                <Tabs changeView={this.props.changeView}/>
+                    
+                    
+                    
                     </div>
                
             </div>

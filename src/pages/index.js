@@ -24,8 +24,8 @@ class IndexPage extends Component{
     return(
       <div className={indexStyles.wrapper}>
   
-          <Card />
-          <Tabs changeView={this.changeView} />
+          <Card changeView={this.changeView}/>
+          {/* <Tabs changeView={this.changeView} /> */}
           <div className={indexStyles.content}>
 
           
