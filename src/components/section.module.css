@@ -23,7 +23,7 @@
 
 .main{
     position: relative;
-    max-width: 800px;
+    width: 40%;
     height: auto;
     /* top: 70px; */
     margin: 0 auto;
@@ -45,7 +45,7 @@
 .about{
     position: relative;
     /* width: 70%; */
-    width: 50%;
+    width: 40%;
     height: auto;
     min-height: 500px;
     /* top: 20px; */
@@ -63,13 +63,14 @@
     position: relative;
     font-size: 20px;
     width: 80%;
+    padding-top: 20px;
     margin: 0 auto;
     text-align: justify;
 }
 
 .stack{
     position: relative;
-    max-width: 800px;
+    width: 40%;
     /* height: auto; */
     /* top: 100px; */
     margin: auto;
@@ -138,7 +139,7 @@
 
 .project{
     position: relative;
-    max-width: 500px;
+    width: 80%;
 
     margin: 20px auto;
     text-align: center;
@@ -205,6 +206,10 @@
         padding-top: 10px;
         font-size: 16px;
         padding-bottom: 10px;
+    }
+    .main{
+        width: 100%;
+        padding: 0px;
     }
     .stack{
         width: 100%;
