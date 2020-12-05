@@ -31,7 +31,7 @@
     width: 100%;
     background-color: black;
 
-   
+    /* border: 4px solid red; */
 }
 
 .player{
@@ -73,4 +73,17 @@
     position: relative;
     width: 100%;
     height: 400px;
+}
+/* iphone5 */
+@media only screen and (max-width: 320px){
+    .name h1{
+        font-size: 43px;
+
+    }
+
+    .player{
+        size: 20px;
+    }
+   
+
 }

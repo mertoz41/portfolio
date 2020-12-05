@@ -29,8 +29,8 @@
     margin: 0 auto;
 }
 .name h1{
-    /* border-bottom-style: solid;
-    border-bottom-color: #00FA9A; */
+    border-bottom-style: solid;
+    border-bottom-color: #00FA9A;
     font-size: 65px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* text-decoration: underline #00FA9A; */
@@ -92,7 +92,7 @@
 }
 .desc h3{
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    text-decoration: underline #00FA9A;
+    /* text-decoration: underline #00FA9A; */
     /* border-bottom-style: solid;
     border-bottom-color: ; */
 }

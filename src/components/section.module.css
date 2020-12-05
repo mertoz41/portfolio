@@ -3,9 +3,22 @@
     width: 100%;
     /* top: 30px; */
     /* height: 300px; */
+    padding-top: 30px;
     padding-bottom: 30px;
     background-color: whitesmoke;
     text-align: center;
+}
+.projectCont{
+        position: relative;
+        width: 100%;
+        /* top: 30px; */
+        height: auto;
+        /* border: 3px solid red; */
+        padding-top: 30px;
+        padding-bottom: 30px;
+        background-color: whitesmoke;
+        text-align: center;
+    
 }
 
 .main{
@@ -49,8 +62,7 @@
 .about p{
     position: relative;
     font-size: 20px;
-    padding: 30px;
-    width: 100%;
+    width: 80%;
     margin: 0 auto;
     text-align: justify;
 }
@@ -81,7 +93,7 @@
     height: 400px;
     /* top: 100px; */
     margin: auto;
-    padding: 20px;
+    /* padding: 20px; */
     text-align: center;
     background-color: white;
     border-bottom-style: solid;
@@ -100,7 +112,7 @@
 .projectabout{
     position: relative;
     max-width: 700px;
-    height: 400px;
+    height: auto;
     /* top: 100px; */
     margin: auto;
     padding: 20px;
@@ -190,7 +202,9 @@
         padding: 0px
     }
     .about p{
+        padding-top: 10px;
         font-size: 16px;
+        padding-bottom: 10px;
     }
     .stack{
         width: 100%;
@@ -199,6 +213,16 @@
 
     }
     .stack img{
+        width: 100%;
+    }
+
+    .projectstack{
+        width: 100%;
+        padding: 0px;
+        /* min-height: 0px; */
+        height: auto;
+    }
+    .projectstack img{
         width: 100%;
     }
 }

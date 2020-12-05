@@ -4,7 +4,7 @@ import sectionStyle from './section.module.css'
 export class Hoopersect extends Component {
     render() {
         return (
-            <div className={sectionStyle.container}>
+            <div className={sectionStyle.projectCont}>
                 <div className={sectionStyle.projectabout}>
                     <p>
                         Hooper App is a social networking service that pivots around the most beautiful sport in the world, basketball.
