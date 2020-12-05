@@ -29,7 +29,7 @@ export class Card extends Component {
                 <div className={cardStyles.content}>
                 
                     <div className={cardStyles.pic}>
-                        <img src={require('../images/mert-greeen.png')} />
+                        <img src={require('../images/mert-cropped.jpg')} />
                     </div>
                     
                     
