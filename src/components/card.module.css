@@ -139,3 +139,14 @@
     }
 
 }
+
+/* iphone 6 */
+
+@media only screen and (max-width: 375px) {
+    .name h1{
+        font-size: 40px;
+    }
+    .content{
+        width: 100%;
+    }
+}
