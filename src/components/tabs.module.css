@@ -92,19 +92,22 @@
 
 /* iphone5 */
 @media only screen and (max-width: 320px) {
-    .nuTabs h3{
-        
-        font-size: 20px;
-    
-    
-        
+    .nuTabs h3{ 
+        font-size: 20px;  
     }
 
 }
 
-/* iphone6 */
+/* iphone 6/7/8 */
 @media only screen and (max-width: 375px){
     .nuTabs h3{
         font-size: 20px;
+    }
+}
+/* iphone 6/7/8 plus */
+
+@media only screen and (max-width: 414px){
+    .nuTabs h3{
+        font-size: 27px;
     }
 }
