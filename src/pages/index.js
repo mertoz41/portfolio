@@ -8,6 +8,8 @@ import AboutSect from '../components/aboutsect'
 import ProjectSect from '../components/projectsect'
 import Stacksect from '../components/stacksect'
 import Footer from '../components/footer'
+import { Helmet } from "react-helmet"
+
 
 
 
@@ -23,6 +25,11 @@ class IndexPage extends Component{
   render(){
     return(
       <div className={indexStyles.wrapper}>
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Mert Ozkaynak</title>
+          {/* <link rel="canonical" href="http://mysite.com/example" /> */}
+        </Helmet>
   
           <Card changeView={this.changeView}/>
           {/* <Tabs changeView={this.changeView} /> */}
