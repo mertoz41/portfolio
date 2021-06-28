@@ -7,11 +7,20 @@ export class Projectsect extends Component {
     toApp = (destination) =>{
         navigate(`/${destination}`)
     }
+    toArtstone = () => {
+
+    }
     render() {
         return (
             <div className={sectionStyle.container}>
                
                 <div className={sectionStyle.main}>
+                    <a href="https://www.theartstone.com" target="_blank">
+                    <div className={sectionStyle.project}>
+                        <h2>Art Stone Marble & Granite</h2>
+                        <h4>Official website of marble and granite fabricator and installer.</h4>
+                    </div>
+                    </a>
                     <div className={sectionStyle.project} onClick={() => this.toApp('hooperapp')}>
                         <h2>Hooper App</h2>
                         <h4>An app for basketball lovers to discover new courts and competition.</h4>
